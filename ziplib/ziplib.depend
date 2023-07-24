@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1584205422 source:c:\users\user\documents\github\myzip\ziplib\main.c
+
+1684970420 source:c:\users\user\documents\github\myzip\ziplib\zip.c
+	<errno.h>
+	<sys/stat.h>
+	<time.h>
+	<direct.h>
+	<unistd.h>
+	<sys/types.h>
+	<unistd.h>
+	"miniz.h"
+	"zip.h"
+	<io.h>
+	<io.h>
+
+1684970420 c:\users\user\documents\github\myzip\ziplib\miniz.h
+	<stddef.h>
+	<time.h>
+	<assert.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<sys/stat.h>
+	<windows.h>
+	<sys/utime.h>
+	<windows.h>
+	<sys/utime.h>
+	<sys/utime.h>
+	<utime.h>
+	<utime.h>
+	<utime.h>
+
+1684970420 c:\users\user\documents\github\myzip\ziplib\zip.h
+	<stdint.h>
+	<string.h>
+	<sys/types.h>
+
