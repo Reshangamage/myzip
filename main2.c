@@ -21,16 +21,16 @@ void compressDirectory(char* inputDir, char* outputDir, char* zipFilename){
 
 }
 
-void exractZipfile(char* zipfile, char* outputDir, char* programName){
+void exractZipfile(char* zipfile, char* outputDir, char* zipFilename){
 
     printf("option: exract\n");
     printf("input: %s\n", zipfile);
     printf("output: %s\n", outputDir);
-    printf("programName: %s\n", programName);
+    printf("programName: %s\n", zipFilename);
 
 }
 
-void showHelp(char* programName){
+void showHelp(char* zipFileName){
 
     printf("Help content for: %s:\n", programName);
     printf("Help content goes here\n");

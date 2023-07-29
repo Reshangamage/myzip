@@ -37,6 +37,11 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="miniz.h" />
+		<Unit filename="zip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zip.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

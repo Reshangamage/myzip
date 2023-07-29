@@ -4,8 +4,14 @@
 	<stdlib.h>
 	<string.h>
 
-1690125326 source:c:\users\user\documents\github\myzip\main.c
+1690644907 source:c:\users\user\documents\github\myzip\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	<zip.h>
+
+1684970420 c:\users\user\documents\github\myzip\ziplib\zip.h
+	<stdint.h>
+	<string.h>
+	<sys/types.h>
 
