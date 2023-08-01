@@ -6,7 +6,9 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <assert.h>
-char* getZipnameFromPath(char* dirPath){
+
+//Function prototypes
+char* getZipnameFromPath(char* dirPath){ //implementation for getting the directory name from path
     DIR *folder;
         struct dirent *entry;
         int files = 0;
@@ -26,9 +28,11 @@ char* getZipnameFromPath(char* dirPath){
         return "/test.zip";
 }
 
-//print the
+// Function to print the usage of the program
 void printUsage(){
     printf("myzip [option] [input directory] [output directory]");
+    //printf("to exract [zip filename] [input directory] [output directory]\n");
+    //printf("For [help]\n");
 }
 
 void zip_walk(struct zip_t *zip, const char *path) { //make the zip file from dir
@@ -61,6 +65,7 @@ void zip_walk(struct zip_t *zip, const char *path) { //make the zip file from di
     closedir(dir);
 }
 
+//implementation for compressing a directory
 void compressDirectory(char* inputDir, char* outputDir){
     printf("option: compress\n");
     printf("input: %s\n", inputDir);
@@ -88,6 +93,8 @@ int on_extract_entry(const char *filename, void *arg) {
 
         return 0;
     }
+
+//implementation for extracting a zip file
 void exractZipfile(char* zipfile, char* outputDir){
     printf("option: exract\n");
     printf("input: %s\n", zipfile);
